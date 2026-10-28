@@ -147,9 +147,6 @@ dd a:hover{color:var(--red)}
 .steps b{display:block;font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:26px;line-height:1.05;color:var(--char)}
 .steps span{display:block;color:var(--muted);font-size:15px;line-height:1.5;margin-top:4px}
 .panel{background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:28px 24px}
-.apply .panel{background:transparent;border:0;border-top:2px solid var(--char);border-radius:0;padding:22px 0 0;max-width:680px}
-.apply .panel iframe{min-height:0}
-.apply .lead{max-width:680px}
 .panel iframe{width:100%;border:0;min-height:560px;display:block}
 .panel iframe[hidden],.note[hidden]{display:none}
 .note{margin:0;color:var(--muted)}
@@ -188,5 +185,11 @@ dd a:hover{color:var(--red)}
 .job li{margin:0 0 7px}
 .job li::marker{color:var(--rust)}
 .fine{color:var(--muted);font-size:15px;max-width:44em;margin:34px 0 0}
-.apply{background:var(--band);border-top:1px solid var(--rule);padding:76px 0}
-.apply .lead{color:var(--muted);margin:0 0 26px;max-width:32em}
+.apply{background:#1C1A18;color:var(--cream);padding:84px 0 96px;text-align:center}
+.apply h2{color:var(--cream);margin:0 0 14px}
+.apply .lead{color:var(--char-muted);margin:0 auto;max-width:30em}
+.apply .rule{width:56px;height:3px;background:var(--gold);border:0;margin:28px auto 36px}
+.apply .panel{background:transparent;border:0;border-radius:0;padding:0;margin:0 auto;max-width:680px;text-align:left}
+.apply .panel iframe{min-height:0;background:#1C1A18}
+.apply .note{color:var(--char-muted);text-align:center}
+.apply .note a{color:var(--gold-soft)}
