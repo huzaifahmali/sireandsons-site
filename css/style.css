@@ -234,3 +234,22 @@ dd a:hover{color:var(--red)}
   .top nav a{font-size:15px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* ---------- Thanksgiving landing ---------- */
+.tg-h{margin:8px 0 8px}
+.tg-menu{list-style:none;margin:0;padding:0;border-top:1px solid var(--char)}
+.tg-menu li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.tg-menu b{display:block;font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:28px;line-height:1.05;color:var(--char)}
+.tg-menu span{display:block;color:var(--muted);font-size:15px;margin-top:2px}
+.tg-menu em{font-style:normal;font-family:var(--display);font-weight:800;font-size:32px;line-height:1;color:var(--red);white-space:nowrap}
+.tg-fine{margin:14px 0 0;color:var(--muted);font-size:15px}
+.tg-dates{margin:36px 0 0;background:var(--char);color:var(--cream);padding:26px 24px;border-radius:4px;display:grid;gap:22px}
+.tg-dates .k{display:block;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:18px;color:var(--gold-soft)}
+.tg-dates b{display:block;font-weight:600;font-size:19px;line-height:1.35}
+.tg-dates .where{display:block;margin-top:8px;color:var(--char-muted);font-size:15px}
+.tg-cta{margin:34px 0 0;text-align:center}
+.tg-cta .btn{display:block;max-width:420px;margin:0 auto;text-align:center;font-size:19px;padding:17px 24px}
+.tg-help{text-align:center;margin-top:18px}
+@media(min-width:680px){.tg-dates{grid-template-columns:1fr 1.6fr;padding:30px 32px}}
+@media(max-width:760px){.tg-menu b{font-size:25px}.tg-menu em{font-size:28px}.tg-dates{padding:22px 18px}}
+.nw{white-space:nowrap}
