@@ -193,3 +193,4 @@ dd a:hover{color:var(--red)}
 .apply .panel iframe{min-height:0;background:#1C1A18}
 .apply .note{color:var(--char-muted);text-align:center}
 .apply .note a{color:var(--gold-soft)}
+.panel iframe+.note{margin-top:18px;font-size:15px}
