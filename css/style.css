@@ -253,3 +253,6 @@ dd a:hover{color:var(--red)}
 @media(min-width:680px){.tg-dates{grid-template-columns:1fr 1.6fr;padding:30px 32px}}
 @media(max-width:760px){.tg-menu b{font-size:25px}.tg-menu em{font-size:28px}.tg-dates{padding:22px 18px}}
 .nw{white-space:nowrap}
+.tg-menu li.sold b,.tg-menu li.sold span{opacity:.5;text-decoration:line-through;text-decoration-thickness:1px}
+.tg-menu li.sold em{color:var(--muted);font-size:22px;letter-spacing:.04em;text-transform:uppercase}
+@media(max-width:760px){.tg-menu li.sold em{font-size:19px}}
